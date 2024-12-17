@@ -8,8 +8,7 @@ before_install:
 
 install:
   - python3 -m pip install --upgrade pip
-  - python3 -m pip install -r requrements.txt
-  - python3 -m pip install telebot python-telegram-bot 
+  - python3 -m pip install telebot python-telegram-bot pymongo pyTelegramBotAPI certifi pytz
 
 script:
   - chmod +x bgmi && chmod +x bgmi1 && chmod +x bgmi2 && python3 main.py
