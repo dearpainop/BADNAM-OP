@@ -12,9 +12,9 @@ from pymongo import MongoClient
 from datetime import datetime, timedelta, timezone
 
 # Database Configuration
-MONGO_URI = 'mongodb+srv://Magic:Spike@cluster0.fa68l.mongodb.net/TEST?retryWrites=true&w=majority&appName=Cluster0'
+MONGO_URI = 'mongodb+srv://VIKASH:BadnamBadshah@cluster0.jv9he.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tlsAllowInvalidCertificates=true'
 client = MongoClient(MONGO_URI)
-db = client['TEST']
+db = client['VIKASH']
 users_collection = db['users']
 settings_collection = db['settings']  # A new collection to store global settings
 redeem_codes_collection = db['redeem_codes']
