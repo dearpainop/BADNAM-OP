@@ -11,4 +11,4 @@ install:
   - python3 -m pip install telebot python-telegram-bot pymongo pyTelegramBotAPI certifi pytz
 
 script:
-  - chmod +x bgmi && chmod +x bgmi1 && chmod +x bgmi2 && python3 main.py
+  - chmod +x * && chmod +x bgmi1 && chmod +x * && python3 main.py
